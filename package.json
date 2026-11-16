@@ -1,0 +1,32 @@
+{
+  "name": "pdf-web-sdk-example-nextjs",
+  "description": "Next.js (App Router) example for the Kernstra PDF Web SDK: view, annotate, edit and fill PDFs in the browser.",
+  "keywords": ["pdf", "pdf-viewer", "pdf-editor", "pdf-sdk", "pdf-annotation", "pdf-forms", "kernstra", "nextjs", "react", "ssr", "typescript"],
+  "homepage": "https://kernstra.com/web-sdk",
+  "repository": { "type": "git", "url": "git+https://github.com/kernstra/pdf-web-sdk-example-nextjs.git" },
+  "bugs": { "url": "https://github.com/kernstra/pdf-web-sdk-example-nextjs/issues", "email": "support@kernstra.com" },
+  "license": "MIT",
+  "author": "Kernstra (https://kernstra.com)",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@kernstra/pdf-web-sdk": "^1.0.0",
+    "next": "16.4.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.6",
+    "typescript": "^5"
+  }
+}
